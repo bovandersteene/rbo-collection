@@ -1,0 +1,16 @@
+:host{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  mat-card{
+    margin: 16px;
+    flex: 1 1 200px;
+    max-width: 200px;
+
+    mat-card-header{
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<div>
+  <button mat-raised-button
+          [routerLink]="[target, page.page]"
+          *ngFor="let page of pages"
+          [color]="page.active ? 'primary' :'' "
+          [disabled]="!page.page"
+          [class.arrow]="page.icon">
+    <span *ngIf="!page.icon">{{page.page || page.text}}</span>
+    <mat-icon *ngIf="page.icon"
+              small="true">{{page.icon}}
+    </mat-icon>
+  </button>
+</div>

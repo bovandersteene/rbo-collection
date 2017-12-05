@@ -40,3 +40,12 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# test coverage
+/test-report.xml
+/icons/
+/coverage/
+/src/**/*.js
+/src/**/*.js.snap
+/src/styles/*sprite*
+/src/styles/icons*.svg

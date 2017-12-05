@@ -17,8 +17,9 @@
       "test": "test.ts",
       "tsconfig": "tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
-      "prefix": "app",
+      "prefix": "rbo",
       "styles": [
+        "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
         "styles.scss"
       ],
       "scripts": [],

@@ -26,9 +26,15 @@
     minimist "^1.2.0"
     rxjs "^5.5.2"
 
-"@angular/animations@^5.0.0":
+"@angular/animations@^5.0.5":
   version "5.0.5"
   resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-5.0.5.tgz#8a008900a79cd9ecb0ee741534ec435cce9539a5"
+  dependencies:
+    tslib "^1.7.1"
+
+"@angular/cdk@angular/cdk-builds":
+  version "5.0.0-rc.2-5210b3e"
+  resolved "https://codeload.github.com/angular/cdk-builds/tar.gz/3aec6ba8267e41796ef6359c7d9884add459d6c0"
   dependencies:
     tslib "^1.7.1"
 
@@ -139,6 +145,12 @@
   version "5.0.5"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-5.0.5.tgz#5019bdea93aa8a3c45a83eb521064916dea30e6f"
 
+"@angular/material@angular/material2-builds":
+  version "5.0.0-rc.2-5210b3e"
+  resolved "https://codeload.github.com/angular/material2-builds/tar.gz/5d3c8e194ca52016eb80519ba8b49c082ab9528c"
+  dependencies:
+    tslib "^1.7.1"
+
 "@angular/platform-browser-dynamic@^5.0.0":
   version "5.0.5"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-5.0.5.tgz#d7ac74c5ffd4c9a133ba90af160402266e92351d"
@@ -156,6 +168,14 @@
   resolved "https://registry.yarnpkg.com/@angular/router/-/router-5.0.5.tgz#9bf64480b264fd8cdfa96a6a19bfbc257274525a"
   dependencies:
     tslib "^1.7.1"
+
+"@ngrx/store-devtools@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@ngrx/store-devtools/-/store-devtools-4.1.1.tgz#20745c39c7560fdc05fa4f22638442a7ec7dd676"
+
+"@ngrx/store@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@ngrx/store/-/store-4.1.1.tgz#680e34df2775e8852754ed777ffac95bd81b7de0"
 
 "@ngtools/json-schema@1.1.0", "@ngtools/json-schema@^1.1.0":
   version "1.1.0"
