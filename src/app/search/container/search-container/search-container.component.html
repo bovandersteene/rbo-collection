@@ -1,4 +1,17 @@
 <rbo-search-list [movies]="movies$ | async"
 ></rbo-search-list>
-<rbo-pagination [target]="target"
-                [page]="page$ | async"></rbo-pagination>
+<!--rbo-pagination [target]="target"
+                [page]="page$ | async"></rbo-pagination-->
+
+<rbo-pagination target="/search"
+                [page]="pageTestShort"></rbo-pagination>
+<rbo-pagination target="/search"
+                [page]="pageTestFirst"></rbo-pagination>
+<rbo-pagination target="/search"
+                [page]="pageTestSecond"></rbo-pagination>
+<rbo-pagination target="/search"
+                [page]="pageTestMiddle"></rbo-pagination>
+<rbo-pagination target="/search"
+                [page]="pageTestLast1"></rbo-pagination>
+<rbo-pagination target="/search"
+                [page]="pageTestLast"></rbo-pagination>

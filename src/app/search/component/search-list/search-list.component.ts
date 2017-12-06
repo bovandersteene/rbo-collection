@@ -10,8 +10,6 @@ import { Page } from '../../entity/entities/page.entity';
 export class SearchListComponent implements OnInit {
   @Input()
   movies: Array<Movie>;
-  @Input()
-  page: Page;
 
   constructor() { }
 

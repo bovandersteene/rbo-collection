@@ -9,7 +9,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: '/search/1',
+    redirectTo: '/search/1', //This will make sure that we are always redirected to the first page
     pathMatch: 'full'
   },
 ];
