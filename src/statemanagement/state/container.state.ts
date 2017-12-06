@@ -4,5 +4,3 @@ export type ContainersState = Readonly<{
   search: SearchState;
 }>;
 
-export type ApplicationContainerState = Readonly<{}>;
-
