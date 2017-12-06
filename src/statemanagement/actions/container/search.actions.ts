@@ -4,7 +4,7 @@ import { Movie } from '../../../app/search/entity/search-response.entity';
 import { Page } from '../../../app/search/entity/entities/page.entity';
 
 export const ActionTypes = {
-  SET_SEARCH_MOVIES: type<'SET_SEARCH_MOVIES'>('SEARCH_SET_SEARCH_MOVIES'),
+  SET_SEARCH_MOVIES: type<'SEARCH_SET_SEARCH_MOVIES'>('SEARCH_SET_SEARCH_MOVIES'),
 };
 
 export class SetSearch implements Action {
