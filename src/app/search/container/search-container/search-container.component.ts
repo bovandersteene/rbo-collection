@@ -15,43 +15,6 @@ export class SearchContainerComponent implements OnInit {
   movies$: Observable<Array<Movie>>;
   page$: Observable<Page>;
 
-  pageTestShort = {
-    size: 10,
-    totalElements: 30,
-    totalPages: 3,
-    number: 1
-  };
-  pageTestFirst = {
-    size: 10,
-    totalElements: 100,
-    totalPages: 10,
-    number: 1
-  };
-  pageTestSecond = {
-    size: 10,
-    totalElements: 100,
-    totalPages: 10,
-    number: 2
-  };
-  pageTestMiddle = {
-    size: 10,
-    totalElements: 100,
-    totalPages: 10,
-    number: 5
-  };
-  pageTestLast1 = {
-    size: 10,
-    totalElements: 100,
-    totalPages: 10,
-    number: 9
-  };
-  pageTestLast = {
-    size: 10,
-    totalElements: 100,
-    totalPages: 10,
-    number: 10
-  };
-
   constructor(private searchSandbox: SearchSandboxService,
               private router: Router,
               private activeRoute: ActivatedRoute) {

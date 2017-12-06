@@ -3,7 +3,10 @@ import { CommonModule } from '@angular/common';
 
 import { SearchRoutingModule } from './search-routing.module';
 import { SearchContainerComponent } from './container/search-container/search-container.component';
-import { MatAutocompleteModule, MatCard, MatCardModule, MatIconModule, MatInputModule } from '@angular/material';
+import {
+  MatAutocompleteModule, MatButtonModule, MatCard, MatCardModule, MatIconModule,
+  MatInputModule
+} from '@angular/material';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SearchService } from './service/search.service';
 import { SearchSandboxService } from './sandbox/search-sandbox.service';
@@ -20,6 +23,7 @@ import { PaginationModule } from '../common/pagination/pagination.module';
     ReactiveFormsModule,
     FormsModule,
     PaginationModule,
+    MatButtonModule,
     MatCardModule,
   ],
   declarations: [ SearchContainerComponent, SearchListComponent ],

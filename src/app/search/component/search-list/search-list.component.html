@@ -1,7 +1,13 @@
 <mat-card *ngFor="let movie of movies">
   <mat-card-header>
-    {{movie.title}}
+    <mat-card-title>
+      {{movie.title}}
+    </mat-card-title>
   </mat-card-header>
+  <img mat-card-image *ngIf="movie.poster_path" src="https://image.tmdb.org/t/p/w500{{movie.poster_path}}">
   <mat-card-content></mat-card-content>
-  <mat-card-actions></mat-card-actions>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>OWN</button>
+  </mat-card-actions>
 </mat-card>

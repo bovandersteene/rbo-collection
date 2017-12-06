@@ -24,10 +24,9 @@ export class SearchSandboxService {
       .distinctUntilChanged();
 
     this.movies$ = pageNumberChanged$
-      .switchMap(page => this.searchService.searchForMovie('simp', page))
+      .switchMap(page => this.searchService.searchForMovie('james bond', page))
       .do(response => this.store.dispatch(new SetSearch(response.movies, response.page)))
       .map(result => result.movies)
       .merge(this.store.select(state => state.containers.search.movies));
   }
-
 }

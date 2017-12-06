@@ -14,6 +14,7 @@ export class SearchService {
   }
 
   searchForMovie(name: string, page: number = 1): Observable<Search> {
+    //If no page is provided default the first will be taken
     return this.httpClient.get<SearchResult>(`${searchQuery}`, {
       params: {
         query: name,
