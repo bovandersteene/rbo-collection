@@ -4,11 +4,11 @@ import { Movie } from '../../../app/search/entity/search-response.entity';
 import { Page } from '../../../app/search/entity/entities/page.entity';
 
 export const ActionTypes = {
-  SET_NEW_ARRIVALSS: type<'NEW_ARRIVALS_SET_EQUIPMENTS'>('NEW_ARRIVALS_SET_EQUIPMENTS'),
+  SET_SEARCH_MOVIES: type<'SET_SEARCH_MOVIES'>('SEARCH_SET_SEARCH_MOVIES'),
 };
 
 export class SetSearch implements Action {
-  type = ActionTypes.SET_NEW_ARRIVALSS;
+  type = ActionTypes.SET_SEARCH_MOVIES;
   payload: Readonly<{
     movies: Array<Movie>,
     page: Page
@@ -23,5 +23,4 @@ export class SetSearch implements Action {
   }
 }
 
-export type Actions =
-  SetSearch  ;
+export type Actions = SetSearch;

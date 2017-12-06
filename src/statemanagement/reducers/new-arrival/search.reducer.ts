@@ -10,7 +10,7 @@ const initialState: SearchState = {
 export function searchReducer(state: SearchState = initialState,
                                   action: searchActions.Actions): SearchState {
   switch (action.type) {
-    case searchActions.ActionTypes.SET_NEW_ARRIVALSS:
+    case searchActions.ActionTypes.SET_SEARCH_MOVIES:
       return {
         movies: [ ...action.payload.movies ],
         page: { ...action.payload.page }
