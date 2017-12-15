@@ -8,6 +8,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
+    "backend": "tsc backend/server.ts && node backend/server.js",
     "e2e": "ng e2e"
   },
   "private": true,
@@ -26,6 +27,9 @@
     "@ngrx/store": "^4.1.1",
     "@ngrx/store-devtools": "^4.1.1",
     "core-js": "^2.4.1",
+    "es6-shim": "^0.35.3",
+    "express-serve-static-core": "^0.1.1",
+    "moment": "^2.19.4",
     "rxjs": "^5.5.2",
     "zone.js": "^0.8.14"
   },
@@ -36,7 +40,10 @@
     "@types/jasmine": "~2.5.53",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~6.0.60",
+    "body-parser": "^1.18.2",
     "codelyzer": "^4.0.1",
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
     "jasmine-core": "~2.6.2",
     "jasmine-spec-reporter": "~4.1.0",
     "karma": "~1.7.0",
