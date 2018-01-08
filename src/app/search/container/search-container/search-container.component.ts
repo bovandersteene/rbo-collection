@@ -34,6 +34,7 @@ export class SearchContainerComponent implements OnInit {
       .do(([ pageNumber, page ]) => this.checkPageNumber(pageNumber, page))
       .map(([ pageNumber, page ]) => page);
 
+
   }
 
   private checkPageNumber(pageNumber: number, page?: Page) {

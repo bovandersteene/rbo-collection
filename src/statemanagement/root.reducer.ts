@@ -4,6 +4,7 @@ import { InjectionToken } from '@angular/core';
 import { environment } from '../environments/environment';
 import { searchReducer } from './reducers/new-arrival/search.reducer';
 import { ApplicationState } from './state/application.state';
+import { screenReducer } from './reducers/screen.reducer';
 
 export const reducerToken = new InjectionToken<ActionReducerMap<ApplicationState>>('Reducers');
 
@@ -13,6 +14,7 @@ const containersReducers = combineReducers({
 
 export const rootReducer = {
   containers: containersReducers,
+  screen: screenReducer,
 };
 
 export function getReducers() {

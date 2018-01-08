@@ -1,4 +1,6 @@
 <mat-toolbar color="primary">
   <span>My Application</span>
 </mat-toolbar>
-<router-outlet></router-outlet>
+<h5>Is my screen in mobile view: {{mobile$ | async}}</h5>
+<h5>Is my screen in tablet view: {{tablet$ | async}}</h5>
+<h5>Is my screen in desktop view: {{desktop$ | async}}</h5>

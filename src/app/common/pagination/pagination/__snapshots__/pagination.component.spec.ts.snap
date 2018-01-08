@@ -1,0 +1,1364 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaginationComponent when 1 page should match the snapshot: only-one 1`] = `
+<rbo-pagination
+  pages={[Function Array]}
+>
+  <div>
+    
+    
+    
+    <button
+      class="arrow"
+      disabled=""
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        left
+      
+      </mat-icon>
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        1
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      class="arrow"
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        right
+      
+      </mat-icon>
+      
+    
+    </button>
+    
+  
+  </div>
+</rbo-pagination>
+`;
+
+exports[`PaginationComponent when 5 pages when on first page should match the snapshot: normal-list-first 1`] = `
+<rbo-pagination
+  pages={[Function Array]}
+>
+  <div>
+    
+    
+    
+    <button
+      class="arrow"
+      disabled=""
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        left
+      
+      </mat-icon>
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        1
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        2
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        3
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      class="arrow"
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        right
+      
+      </mat-icon>
+      
+    
+    </button>
+    
+  
+  </div>
+</rbo-pagination>
+`;
+
+exports[`PaginationComponent when 5 pages when on last page should match the snapshot: normal-list-last 1`] = `
+<rbo-pagination
+  pages={[Function Array]}
+>
+  <div>
+    
+    
+    
+    <button
+      class="arrow"
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        left
+      
+      </mat-icon>
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        1
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        2
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        3
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      class="arrow"
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        right
+      
+      </mat-icon>
+      
+    
+    </button>
+    
+  
+  </div>
+</rbo-pagination>
+`;
+
+exports[`PaginationComponent when 5 pages when on middle page should match the snapshot: normal-list-middle 1`] = `
+<rbo-pagination
+  pages={[Function Array]}
+>
+  <div>
+    
+    
+    
+    <button
+      class="arrow"
+      disabled=""
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        left
+      
+      </mat-icon>
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        1
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        2
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        3
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      class="arrow"
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        right
+      
+      </mat-icon>
+      
+    
+    </button>
+    
+  
+  </div>
+</rbo-pagination>
+`;
+
+exports[`PaginationComponent when more than 5 and the first page is active should match the snapshot: large-list-first 1`] = `
+<rbo-pagination
+  pages={[Function Array]}
+>
+  <div>
+    
+    
+    
+    <button
+      class="arrow"
+      disabled=""
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        left
+      
+      </mat-icon>
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        1
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        2
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        3
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      disabled=""
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        ...
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        18
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      class="arrow"
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        right
+      
+      </mat-icon>
+      
+    
+    </button>
+    
+  
+  </div>
+</rbo-pagination>
+`;
+
+exports[`PaginationComponent when more than 5 and the fourth page is active should match the snapshot: large-list-fourth 1`] = `
+<rbo-pagination
+  pages={[Function Array]}
+>
+  <div>
+    
+    
+    
+    <button
+      class="arrow"
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        left
+      
+      </mat-icon>
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        1
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        2
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        3
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        4
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      disabled=""
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        ...
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        18
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      class="arrow"
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        right
+      
+      </mat-icon>
+      
+    
+    </button>
+    
+  
+  </div>
+</rbo-pagination>
+`;
+
+exports[`PaginationComponent when more than 5 and the last page is active should match the snapshot: large-list-last 1`] = `
+<rbo-pagination
+  pages={[Function Array]}
+>
+  <div>
+    
+    
+    
+    <button
+      class="arrow"
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        left
+      
+      </mat-icon>
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        1
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      disabled=""
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        ...
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        16
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        17
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        18
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      class="arrow"
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        right
+      
+      </mat-icon>
+      
+    
+    </button>
+    
+  
+  </div>
+</rbo-pagination>
+`;
+
+exports[`PaginationComponent when more than 5 and the last-1 page is active should match the snapshot: large-list-last-1 1`] = `
+<rbo-pagination
+  pages={[Function Array]}
+>
+  <div>
+    
+    
+    
+    <button
+      class="arrow"
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        left
+      
+      </mat-icon>
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        1
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      disabled=""
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        ...
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        15
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        16
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        17
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        18
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      class="arrow"
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        right
+      
+      </mat-icon>
+      
+    
+    </button>
+    
+  
+  </div>
+</rbo-pagination>
+`;
+
+exports[`PaginationComponent when more than 5 and the last-2 page is active should match the snapshot: large-list-last-2 1`] = `
+<rbo-pagination
+  pages={[Function Array]}
+>
+  <div>
+    
+    
+    
+    <button
+      class="arrow"
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        left
+      
+      </mat-icon>
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        1
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      disabled=""
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        ...
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        14
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        15
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        16
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      disabled=""
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        ...
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        18
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      class="arrow"
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        right
+      
+      </mat-icon>
+      
+    
+    </button>
+    
+  
+  </div>
+</rbo-pagination>
+`;
+
+exports[`PaginationComponent when more than 5 and the middle page is active should match the snapshot: large-list-middle 1`] = `
+<rbo-pagination
+  pages={[Function Array]}
+>
+  <div>
+    
+    
+    
+    <button
+      class="arrow"
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        left
+      
+      </mat-icon>
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        1
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      disabled=""
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        ...
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        13
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        14
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        15
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      disabled=""
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        ...
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        18
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      class="arrow"
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        right
+      
+      </mat-icon>
+      
+    
+    </button>
+    
+  
+  </div>
+</rbo-pagination>
+`;
+
+exports[`PaginationComponent when more than 5 and the second page is active should match the snapshot: large-list-second 1`] = `
+<rbo-pagination
+  pages={[Function Array]}
+>
+  <div>
+    
+    
+    
+    <button
+      class="arrow"
+      disabled=""
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        left
+      
+      </mat-icon>
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        1
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        2
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        3
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      disabled=""
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        ...
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      mat-raised-button=""
+    >
+      
+      
+      
+      <span>
+        18
+      </span>
+      
+      
+      
+      
+    
+    </button>
+    <button
+      class="arrow"
+      mat-raised-button=""
+    >
+      
+      
+      
+      
+      
+      
+      <mat-icon
+        small="true"
+      >
+        right
+      
+      </mat-icon>
+      
+    
+    </button>
+    
+  
+  </div>
+</rbo-pagination>
+`;
+
+exports[`PaginationComponent when more than 5 and the third page is active should match the snapshot: large-list-third 1`] = `
+<rbo-pagination>
+  <div>
+    
+    
+    
+    
+  
+  </div>
+</rbo-pagination>
+`;

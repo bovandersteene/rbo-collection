@@ -11,6 +11,7 @@ import { reducerProvider, reducerToken } from '../statemanagement/root.reducer';
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import '../import-rxjs';
+import { AppSandboxService } from './sandbox/app-sandbox.service';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import '../import-rxjs';
   ],
   providers: [
     reducerProvider,
+    AppSandboxService,
   ],
   bootstrap: [ AppComponent ]
 })

@@ -29,4 +29,5 @@ export class SearchSandboxService {
       .map(result => result.movies)
       .merge(this.store.select(state => state.containers.search.movies));
   }
+
 }
