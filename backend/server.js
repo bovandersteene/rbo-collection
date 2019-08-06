@@ -28,7 +28,7 @@ var Server = (function () {
         //Redirect all the other resquests
         this.app.get('*', function (req, res) {
             if (allowedExt.filter(function (ext) { return req.url.indexOf(ext) > 0; }).length > 0) {
-                res.sendFile(path.resolve("dist/" + req.url));
+                res.sendFile(path.resolve("dist/" + req.url.split("?")[0]));
             }
             else {
                 res.sendFile(path.resolve('dist/index.html'));
