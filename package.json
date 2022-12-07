@@ -46,7 +46,7 @@
     "body-parser": "^1.18.2",
     "codelyzer": "^4.1.0",
     "compodoc": "^0.0.41",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "gulp": "^3.9.1",
     "jasmine-core": "~2.9.1",
     "jasmine-spec-reporter": "~4.2.1",
